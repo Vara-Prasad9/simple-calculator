@@ -1,27 +1,29 @@
-let num1=10
-let num2=8
-document.getElementById("num1").textContent=num1
-document.getElementById("num2").textContent=num2
 
- let string=document.getElementById("result")
+let subfunc=document.getElementById("sub-el")
+function Substract(){
+   let var1 =Number(prompt("Enter firstnumber"));
+   let var2 =Number(prompt("Entersecond number"));
+   let result =var1-var2;
+   alert('Result:'+result);
+  }
 
-function add(){
-   let sum=num1+num2
-   string.textContent="Result="+sum
-}
-function sub(){
-   let sum=num1-num2
-   string.textContent="Result="+sum
-}
-
-function div(){
-   let sum=num1/num2
-   string.textContent="Result="+sum
-}
-
-function mul(){
-   let sum=num1*num2
-   string.textContent="Result="+sum
-}
-
+  function Add(){
+   let var1 = Number(prompt("Enter first number"));
+   let var2 = Number(prompt("Enter second number"));
+   let result = var1+var2;
+   alert('Result: '+result)
+  }
+  function Multiply(){
+   let var1 =Number(prompt("Enterfirst number"));
+   let var2 =Number(prompt("Entersecond number"));
+   let result =var1*var2;
+   alert('Result:'+result);
+  }
+  function Divide(){
+   let var1 =Number(prompt("Enter firstnumber"));
+   let var2 =Number(prompt("Enter secondnumber"));
+   let result = var1/var2;
+   alert('Result: '+result);
+  }
+  
 
