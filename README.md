@@ -1,1 +1,1 @@
-# Simple Calculator with basic Styling
+# Simple calculator with basic Styling
